@@ -2,15 +2,17 @@ var mongoose = require("mongoose"),
     Schema = mongoose.Schema,
     objectId = mongoose.Schema.ObjectId;
 
+var favoritosSchema = require('./favoritos');
+
 var userSchema = new Schema({
     _id: { type: objectId, auto: true },
-    name: { type: String, required: true },
-    contactNo: { type: String, required: true },
-    address: { type: String, required: true }
+    nome: { type: String, required: true },
+    favoritoliga: [favoritosSchema],
+    favoritoequipa: [favoritosSchema]
 }, {
     versionKey: false
 });
 
-var user = mongoose.model('userModel', userSchema, 'users');
+var user = mongoose.model('User', userSchema, 'users');
 
 module.exports = user;

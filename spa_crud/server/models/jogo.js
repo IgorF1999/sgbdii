@@ -4,8 +4,8 @@ var mongoose = require("mongoose"),
 
 var jogoSchema = Schema({
    _id: { type: objectId, auto: true },
-   equipa: { type: Schema.Types.ObjectId, ref: 'Equipa'},
-   jogador: { type: Schema.Types.ObjectId, ref: 'Jogador'}
+   equipas: { type: Schema.Types.ObjectId, ref: 'Equipa'},
+   jogadores: { type: Schema.Types.ObjectId, ref: 'Jogador'}
 });
 
 var jogo = mongoose.model('Jogo', jogoSchema, 'jogo');
