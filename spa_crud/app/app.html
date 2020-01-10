@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Heroic Features - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/heroic-features.css" rel="stylesheet">
+
+    <!-- JS (load angular, ui-router, and our custom js file) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.5/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.20/angular-ui-router.js"></script>
+
+
+    <script src="app.js"></script>
+    <script src="./controllers/userController.js"></script>
+</head>
+
+ <body ng-app="routerApp">
+
+ <!-- Navigation -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+     <div class="container">
+         <a class="navbar-brand" href="#">Start Bootstrap</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+             <ul class="navbar-nav ml-auto">
+                 <li class="nav-item">
+                     <a class="nav-link" ui-sref="home" ui-sref-active="active">Home
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" ui-sref="create" ui-sref-active="active">Create</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" ui-sref="users" ui-sref-active="active">Users</a>
+                 </li>
+                 <li class="nav-item">
+                     <a class="nav-link" ui-sref="#">Contact</a>
+                 </li>
+             </ul>
+         </div>
+     </div>
+ </nav>
+
+ <!-- Page Content -->
+ <div class="container">
+     <div ui-view>
+
+     </div>
+ </div>
+ <!-- /.container -->
+
+ <!-- Footer -->
+ <footer class="py-5 bg-dark">
+     <div class="container">
+         <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+     </div>
+     <!-- /.container -->
+ </footer>
+		
+		  <!-- Bootstrap core JavaScript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
