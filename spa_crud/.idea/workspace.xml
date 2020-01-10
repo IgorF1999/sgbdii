@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7189689e-3cb3-4244-af57-a74f747078f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/equipas/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/equipas/lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/jogadores/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/jogadores/lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/jogos/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/jogos/lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mensagens/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/mensagens/lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/users/lists.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/jogadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/jogadores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/jogo.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/jogo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/ligas.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/ligas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/mensagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/mensagem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +60,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/mensagens" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,12 +74,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\WebstormProjects\spa_crud\app\views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\WebstormProjects\spa_crud" />
       <recent name="C:\Users\ASUS\WebstormProjects\spa_crud\server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\mensagens" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\jogos" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\jogadores" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\equipas" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\users" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -110,7 +121,7 @@
       <workItem from="1578649483515" duration="1735000" />
       <workItem from="1578652865126" duration="1047000" />
       <workItem from="1578670970416" duration="1724000" />
-      <workItem from="1578672724378" duration="778000" />
+      <workItem from="1578672724378" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="newupdate">
       <created>1578672399423</created>
@@ -119,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578672399423</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="newupdate">
+      <created>1578673596242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578673596242</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,29 +148,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="newupdate" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="115" key="CommitChangelistDialog2" timestamp="1578672396868">
+    <state x="574" y="115" key="CommitChangelistDialog2" timestamp="1578673594969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="574" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578672396868" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578673292318">
+    <state x="574" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578673594969" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578674014611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578673292318" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578673292318">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578674014611" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578674014611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578673292318" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578673292317">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578674014611" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578674014611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578673292317" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578673292318">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578674014611" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578674014611">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578673292318" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578672402595">
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578674014611" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578673600399">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578672402595" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1578673600399" />
   </component>
 </project>
