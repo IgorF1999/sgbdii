@@ -1,13 +1,63 @@
-var mongoose = require("mongoose"),
-    Schema = mongoose.Schema,
-    objectId = mongoose.Schema.ObjectId;
+var express = require("express"),
+    router = express.Router(),
+    equipas = require("../models/equipas");
 
-var equipasSchema = Schema({
-    _id: { type: objectId, auto: true },
-    nome: String,
-    ligas: { type: Schema.Types.ObjectId, ref: 'Ligas'},
+router.get("/", function (req, res) {
+    equipas.find({}, function (err, data) {
+        if (err) {
+            res.send("error");
+            return;
+        }
+        res.send(data);
+    });
 });
 
-var equipas = mongoose.model('Equipa', equipasSchema, 'equipas');
+router.get("/:id", function (req, res) {
+    var id = req.params.id;
+    equipas.find({ _id: id }, function (err, data) {
+        if (err) {
+            res.send("error");
+            return;
+        }
+        res.send(data[0]);
+    });
+});
 
-module.exports = equipas;
+router.post("/", function (req, res) {
+    var obj = req.body;
+    var model = new equipas(obj);
+    model.save(function (err) {
+        if (err) {
+            res.send(err);
+            return;
+        }
+        res.send("created");
+    });
+});
+
+router.post("/:id", function (req, res) {
+    var id = req.params.id;
+    var obj = req.body;
+
+    equipas.findByIdAndUpdate(id, {nome: obj.nome},
+        function (err) {
+            if (err) {
+                res.send("error");
+                return;
+            }
+            res.send("updated");
+        });
+});
+
+router.delete("/:id", function (req, res) {
+    var id = req.params.id;
+    equipas.findByIdAndRemove(id, function (err) {
+        if (err) {
+            res.send("error");
+            return;
+        }
+        res.send("deleted");
+    });
+});
+
+module.exports = router;
