@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7189689e-3cb3-4244-af57-a74f747078f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../aula9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/spa_crud/server/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../projeto/spa_crud/server/routes/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/spa_crud/server/routes/equipas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/spa_crud/server/routes/jogadores.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/spa_crud/server/routes/jogo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/spa_crud/server/routes/ligas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../projeto/spa_crud/server/routes/mensagem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/api.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/app</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\ASUS\WebstormProjects\spa_crud</dir>
+    </dirStrings>
+  </component>
+  <component name="FrameworkCommandLineHistory">
+    <commandsHistory>
+      <command text="npm install mongoose" />
+      <command text="npm install angular --save" />
+      <command text="npm install angular-ui-router --save" />
+      <command text="npm install bootstrap --save" />
+    </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1V9lUSsrfB3N7tZO1TBlkZgEwmv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projeto" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\server\controllers" />
+      <recent name="C:\Users\ASUS\WebstormProjects\spa_crud" />
+      <recent name="C:\Users\ASUS\WebstormProjects\spa_crud\server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\server\controllers" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\mensagens" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\jogos" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\jogadores" />
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\equipas" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7189689e-3cb3-4244-af57-a74f747078f1" name="Default Changelist" comment="" />
+      <created>1542061073092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542061073092</updated>
+      <workItem from="1542061093455" duration="6702000" />
+      <workItem from="1542158305674" duration="835000" />
+      <workItem from="1542734990352" duration="605000" />
+      <workItem from="1542799127366" duration="764000" />
+      <workItem from="1542823702515" duration="1625000" />
+      <workItem from="1542831197161" duration="4090000" />
+      <workItem from="1543364700201" duration="946000" />
+      <workItem from="1543408384464" duration="811000" />
+      <workItem from="1543427360943" duration="11166000" />
+      <workItem from="1576673208131" duration="1026000" />
+      <workItem from="1578649483515" duration="1735000" />
+      <workItem from="1578652865126" duration="1047000" />
+      <workItem from="1578670970416" duration="1724000" />
+      <workItem from="1578672724378" duration="2385000" />
+      <workItem from="1579126317956" duration="523000" />
+      <workItem from="1579126901126" duration="1560000" />
+      <workItem from="1579213583827" duration="3987000" />
+      <workItem from="1579217718903" duration="24000" />
+      <workItem from="1579217980857" duration="13000" />
+      <workItem from="1579218032566" duration="295000" />
+    </task>
+    <task id="LOCAL-00001" summary="newupdate">
+      <created>1578672399423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578672399423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="newupdate">
+      <created>1578673596242</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578673596242</updated>
+    </task>
+    <task id="LOCAL-00003" summary="latestupdate">
+      <created>1578675097656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578675097656</updated>
+    </task>
+    <task id="LOCAL-00004" summary="latestupdate">
+      <created>1579217153398</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579217153398</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="newupdate" />
+    <MESSAGE value="latestupdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="latestupdate" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="691" y="195" key="#bin\www" timestamp="1579217569994">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="195" key="#bin\www/0.0.1920.1040@0.0.1920.1040" timestamp="1579217569994" />
+    <state x="574" y="115" key="CommitChangelistDialog2" timestamp="1579217150554">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="574" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579217150554" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579218326021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579218326021" />
+    <state width="1899" height="292" key="GridCell.Tab.0.bottom" timestamp="1579217601965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579217601965" />
+    <state width="1899" height="292" key="GridCell.Tab.0.center" timestamp="1579217601965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579217601965" />
+    <state width="1899" height="292" key="GridCell.Tab.0.left" timestamp="1579217601965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579217601965" />
+    <state width="1899" height="292" key="GridCell.Tab.0.right" timestamp="1579217601965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579217601965" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1579128463555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state x="672" y="237" key="MultipleFileMergeDialog" timestamp="1579217471215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="237" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579217471215" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1579217155906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579217155906" />
+  </component>
+</project>

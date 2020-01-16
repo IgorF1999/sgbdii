@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sgbdii.iml" filepath="$PROJECT_DIR$/.idea/sgbdii.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spa_crud.iml" filepath="$PROJECT_DIR$/.idea/spa_crud.iml" />
     </modules>
   </component>
 </project>

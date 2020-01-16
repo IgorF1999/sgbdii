@@ -8,12 +8,6 @@ var routes = require('./server/routes/web'); //web routes
 var apiRoutes = require('./server/routes/api'); //api routes
 var connection = require("./server/config/db"); //mongodb connection
 
-var equipas = require('./server/routes/equipas');
-var jogadores = require('./server/routes/jogadores');
-var jogo = require('./server/routes/jogo');
-var ligas = require('./server/routes/ligas');
-var mensagem = require('./server/routes/mensagem');
-
 var server = express();
 
 // view engine setup
@@ -34,11 +28,6 @@ server.use(express.static('node_modules'));
 // configure our routes
 server.use('/', routes);
 server.use('/api', apiRoutes);
-server.use('/equipas', equipas);
-server.use('/jogadores', jogadores);
-server.use('/jogo', jogo);
-server.use('/ligas', ligas);
-server.use('/mensagem', mensagem);
 
 // catch 404 and forward to error handler
 server.use(function(req, res, next) {
