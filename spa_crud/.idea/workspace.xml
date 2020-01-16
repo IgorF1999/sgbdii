@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7189689e-3cb3-4244-af57-a74f747078f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/equipas.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/equipas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/jogadores.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/jogadores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/jogo.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/jogo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/ligas.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/ligas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/mensagem.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/mensagem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +56,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/views/mensagens" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,16 +70,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\server\controllers" />
+      <recent name="C:\Users\ASUS\WebstormProjects\spa_crud" />
+      <recent name="C:\Users\ASUS\WebstormProjects\spa_crud\server" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\server\controllers" />
       <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\mensagens" />
       <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\jogos" />
       <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\jogadores" />
       <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\equipas" />
-      <recent name="C:\Users\gonca\OneDrive\Documentos\GitHub\sgbdii\spa_crud\app\views\users" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ASUS\WebstormProjects\spa_crud" />
-      <recent name="C:\Users\ASUS\WebstormProjects\spa_crud\server" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -114,6 +121,7 @@
       <workItem from="1578672724378" duration="2385000" />
       <workItem from="1579126317956" duration="523000" />
       <workItem from="1579126901126" duration="1560000" />
+      <workItem from="1579213583827" duration="3307000" />
     </task>
     <task id="LOCAL-00001" summary="newupdate">
       <created>1578672399423</created>
@@ -152,22 +160,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="574" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578675096686" />
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1579128463555">
+    <state width="1899" height="292" key="GridCell.Tab.0.bottom" timestamp="1579216673476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
-    <state width="1899" height="348" key="GridCell.Tab.0.center" timestamp="1579128463554">
+    <state width="1899" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579216673476" />
+    <state width="1899" height="292" key="GridCell.Tab.0.center" timestamp="1579216673476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463554" />
-    <state width="1899" height="348" key="GridCell.Tab.0.left" timestamp="1579128463554">
+    <state width="1899" height="292" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579216673476" />
+    <state width="1899" height="292" key="GridCell.Tab.0.left" timestamp="1579216673476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463554" />
-    <state width="1899" height="348" key="GridCell.Tab.0.right" timestamp="1579128463555">
+    <state width="1899" height="292" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579216673476" />
+    <state width="1899" height="292" key="GridCell.Tab.0.right" timestamp="1579216673476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579128463555" />
+    <state width="1899" height="292" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579216673476" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1579128463555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
